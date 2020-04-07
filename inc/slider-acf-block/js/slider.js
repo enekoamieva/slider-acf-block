@@ -1,8 +1,10 @@
 (function ($) {
-    $('.bxslider').bxSlider({
-        auto: true,
-        stopAutoOnClick: true,
-        pager: true,
-        slideWidth: 700
+    $(document).ready.(function() {
+        ('.bxslider').bxSlider({
+            auto: true,
+            stopAutoOnClick: true,
+            pager: true,
+            slideWidth: 700
+        });
     });
 })(jQuery);
